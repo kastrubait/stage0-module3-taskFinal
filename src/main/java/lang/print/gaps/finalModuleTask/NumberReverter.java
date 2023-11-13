@@ -6,6 +6,6 @@ public class NumberReverter {
         int prev = number / 10;
         int medium = prev % 10;
         int first = prev / 10;
-        System.out.println(last + medium + first);
+        System.out.println(last + "" + medium + "" + first);
     }
 }
